@@ -1,11 +1,55 @@
+body {
+  min-width: 290px;
+  font-family: sans-serif;
+}
+
+p {
+  padding-left: 30px;
+}
+
+ul {
+  padding-left: 80px;
+}
 .code {
   padding: 5px;
   margin: 0 50px 0 50px;
-  background-color: rgb(216, 213, 208);
+  background-color: rgb(240, 240, 240);
   font-style: italic;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .code > p {
   padding-left: 30px;
+}
+
+.main {
+  margin-left: 280px;
+  line-height: 1.5;
+}
+
+.navbar {
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  position: fixed;
+  width: 270px;
+  top: 0;
+  left: 0;
+}
+
+.navbar > header {
+  text-align: center;
+  padding: 15px;
+  font-size: 23px;
+}
+
+a {
+  color: gray;
+  font-family: sans-serif;
+  border-top: 1px solid black;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: medium;
+
+  padding: 15px 10px 15px 30px;
 }
